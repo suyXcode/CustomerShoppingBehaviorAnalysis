@@ -17,6 +17,11 @@ This project transforms raw transactional data into actionable business insights
 
 ---
 
+## 📊 Dashboard Preview
+
+![Dashboard Preview](csb.png)
+
+
 # 📂 Repository Structure
 ```bash
 CustomerShoppingBehaviorAnalysis/
