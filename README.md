@@ -2,7 +2,7 @@
 # 🛍️ Customer Shopping Behavior Analysis
 
 ![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
-![MySQL](https://img.shields.io/badge/PostgreSQL-SQL-blue)
+![MySQL](https://img.shields.io/badge/MySQL-blue)
 ![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
