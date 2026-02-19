@@ -1,86 +1,82 @@
+
 # 🛍️ Customer Shopping Behavior Analysis
 
-A comprehensive Data Analysis project that examines customer shopping patterns using Python, PostgreSQL, and Power BI. This project uncovers actionable insights into customer spending behavior, product performance, subscription trends, and demographic patterns to support data-driven business decisions.
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![MySQL](https://img.shields.io/badge/PostgreSQL-SQL-blue)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-🔗 GitHub Repository:
-https://github.com/suyXcode/CustomerShoppingBehaviorAnalysis
+A complete end-to-end Data Analytics project analyzing customer shopping behavior using Python, PostgreSQL, and Power BI.
+
+This project transforms raw transactional data into actionable business insights through:
+
+- Data cleaning & preprocessing
+- SQL-based business analysis
+- Interactive Power BI dashboards
+- Customer segmentation & revenue analysis
 
 ---
 
-# 📌 Project Overview
+# 📂 Repository Structure
 
-This project analyzes transactional data from 3,900 customer purchases across multiple product categories. The main objective is to:
-
-- Identify customer spending patterns
-- Segment customers based on behavior
-- Analyze product performance
-- Evaluate subscription effectiveness
-- Support business decision-making with insights
+CustomerShoppingBehaviorAnalysis/
+│
+├── customer_shopping_behavior.csv
+├── po.ipynb
+├── csb.sql
+├── csb.pbix
+├── BPD.pdf
+├── README.md
+└── .ipynb_checkpoints
 
 ---
 
 # 📊 Dataset Information
 
-- Rows: 3,900  
-- Columns: 18  
-- Missing Values: 37 (Review Rating column)
-
-## Key Features
-
-### Customer Demographics
-- Age
-- Gender
-- Location
-- Subscription Status
-
-### Purchase Details
-- Item Purchased
-- Category
-- Purchase Amount
-- Season
-- Size
-- Color
-
-### Shopping Behavior
-- Discount Applied
-- Previous Purchases
-- Purchase Frequency
-- Review Rating
-- Shipping Type
+| Attribute | Value |
+|---------|--------|
+| Records | 3,900 |
+| Features | 18 |
+| Domain | Customer Transactions |
+| Missing Values | Review Rating column |
 
 ---
 
-# ⚙️ Tech Stack
+# ⚙️ Technologies Used
 
-- Python (Pandas, NumPy)
+- Python
+- Pandas
 - PostgreSQL
 - Power BI
-- Git & GitHub
+- Jupyter Notebook
+- GitHub
 
 ---
 
-# 🧹 Data Cleaning & Preparation
+# 🧹 Python Analysis
 
-- Imported dataset using Pandas
-- Handled missing values using median imputation
-- Standardized column names
-- Created new features like age_group
-- Removed redundant columns
-- Loaded cleaned data into PostgreSQL
+Performed:
+
+- Data loading using pandas
+- Missing value handling
+- Feature engineering
+- Column standardization
+- Data transformation
+- Export to PostgreSQL
 
 ---
 
 # 🗄️ SQL Analysis
 
-Key insights:
+Business questions answered:
 
-- Revenue comparison by gender
-- High-spending discount users identified
-- Top rated products identified
-- Shipping type comparison
-- Subscriber vs Non-subscriber analysis
+- Revenue by gender
 - Customer segmentation
-- Revenue analysis by age group
+- Subscriber vs non-subscriber analysis
+- Top products by rating
+- Discount impact analysis
+- Shipping type comparison
+- Revenue by age group
 
 ---
 
@@ -88,35 +84,54 @@ Key insights:
 
 Dashboard includes:
 
-- Total Customers
-- Average Purchase Amount
-- Revenue by Category
-- Sales by Age Group
-- Subscription Analysis
+- Total customers
+- Average purchase amount
+- Revenue by category
+- Revenue by age group
+- Customer segmentation
+- Subscription analysis
 
 ---
 
-# 📈 Business Recommendations
+# 📈 Key Insights
 
-- Promote subscription benefits
-- Reward loyal customers
-- Optimize discount strategies
-- Focus marketing on high-revenue age groups
-- Promote top-rated products
+✔ Loyal customers form majority  
+✔ Express shipping customers spend more  
+✔ Young adults generate highest revenue  
+✔ Discounts strongly influence purchase behavior  
+✔ Subscribers show consistent engagement  
 
 ---
 
-# 📁 Repository Structure
+# 🚀 How to Run Project
 
-CustomerShoppingBehaviorAnalysis/
-│
-├── data/
-├── python/
-├── sql/
-├── powerbi/
-├── images/
-├── README.md
-└── requirements.txt
+## Step 1: Clone repo
+
+git clone https://github.com/suyXcode/CustomerShoppingBehaviorAnalysis.git
+
+## Step 2: Run Python Notebook
+
+Open po.ipynb and run all cells.
+
+## Step 3: Run SQL Queries
+
+Open PostgreSQL and run csb.sql
+
+## Step 4: Open Power BI Dashboard
+
+Open csb.pbix
+
+---
+
+# 🎯 Business Value
+
+This project helps companies:
+
+- Improve marketing strategies
+- Increase customer retention
+- Optimize pricing & discounts
+- Identify high-value customers
+- Improve product positioning
 
 ---
 
@@ -129,4 +144,5 @@ GitHub: https://github.com/suyXcode
 
 ---
 
-⭐ If you found this useful, please star the repo!
+⭐ Star this repo if you found it useful!
+
