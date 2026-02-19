@@ -18,7 +18,7 @@ This project transforms raw transactional data into actionable business insights
 ---
 
 # 📂 Repository Structure
-
+```bash
 CustomerShoppingBehaviorAnalysis/
 │
 ├── customer_shopping_behavior.csv
@@ -28,8 +28,8 @@ CustomerShoppingBehaviorAnalysis/
 ├── BPD.pdf
 ├── README.md
 └── .ipynb_checkpoints
+```
 
----
 
 # 📊 Dataset Information
 
@@ -40,7 +40,7 @@ CustomerShoppingBehaviorAnalysis/
 | Domain | Customer Transactions |
 | Missing Values | Review Rating column |
 
----
+
 
 # ⚙️ Technologies Used
 
@@ -51,7 +51,7 @@ CustomerShoppingBehaviorAnalysis/
 - Jupyter Notebook
 - GitHub
 
----
+
 
 # 🧹 Python Analysis
 
@@ -64,7 +64,7 @@ Performed:
 - Data transformation
 - Export to PostgreSQL
 
----
+
 
 # 🗄️ SQL Analysis
 
@@ -78,7 +78,7 @@ Business questions answered:
 - Shipping type comparison
 - Revenue by age group
 
----
+
 
 # 📊 Power BI Dashboard
 
@@ -91,7 +91,7 @@ Dashboard includes:
 - Customer segmentation
 - Subscription analysis
 
----
+
 
 # 📈 Key Insights
 
@@ -101,27 +101,27 @@ Dashboard includes:
 ✔ Discounts strongly influence purchase behavior  
 ✔ Subscribers show consistent engagement  
 
----
+
 
 # 🚀 How to Run Project
 
 ## Step 1: Clone repo
 
-git clone https://github.com/suyXcode/CustomerShoppingBehaviorAnalysis.git
+    git clone https://github.com/suyXcode/CustomerShoppingBehaviorAnalysis.git
 
 ## Step 2: Run Python Notebook
 
-Open po.ipynb and run all cells.
+    Open po.ipynb and run all cells.
 
 ## Step 3: Run SQL Queries
 
-Open PostgreSQL and run csb.sql
+    Open PostgreSQL and run csb.sql
 
 ## Step 4: Open Power BI Dashboard
 
-Open csb.pbix
+    Open csb.pbix
 
----
+
 
 # 🎯 Business Value
 
@@ -133,16 +133,16 @@ This project helps companies:
 - Identify high-value customers
 - Improve product positioning
 
----
+
 
 # 👨‍💻 Author
 
-Suyash Singh  
-Data Analyst | Machine Learning Developer  
+**Suyash Singh**  
+**Data Analyst**  
 
-GitHub: https://github.com/suyXcode
+* GitHub: https://github.com/suyXcode
 
----
+
 
 ⭐ Star this repo if you found it useful!
 
